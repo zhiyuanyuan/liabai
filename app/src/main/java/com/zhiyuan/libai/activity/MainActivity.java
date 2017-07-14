@@ -1,4 +1,4 @@
-package com.zhiyuan.libai;
+package com.zhiyuan.libai.activity;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.show.api.ShowApiRequest;
+import com.zhiyuan.libai.R;
 import com.zhiyuan.libai.bean.Result;
 import com.zhiyuan.libai.util.JsonUtil;
 
