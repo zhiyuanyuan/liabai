@@ -1,5 +1,7 @@
 package com.zhiyuan.libai.activity;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -59,5 +61,9 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    public static void lauch(Context mContext){
+        mContext.startActivity(new Intent(mContext,MainActivity.class));
     }
 }
